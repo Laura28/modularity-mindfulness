@@ -7,7 +7,7 @@ html {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
