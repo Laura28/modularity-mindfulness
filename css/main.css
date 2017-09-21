@@ -4,7 +4,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: "Noto Sans Japanese", sans-serif;
+  font-family: "Noto Sans", sans-serif;
 }
 
 *, *::before, *::after {
@@ -15,7 +15,6 @@ body {
   margin: 0;
   background-color: white;
   font-family: "Noto Sans", sans-serif;
-  font-size: 200%;
 }
 
 .img-flex {
@@ -30,7 +29,8 @@ li a {
 }
 
 .btn, .btn-ghost {
-  color: #d89fb0;
+  color: #b64c6e;
+  border: 2px solid #d89fb0;
 }
 
 header h1, header p {
