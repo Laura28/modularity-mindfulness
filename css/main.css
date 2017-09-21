@@ -33,6 +33,12 @@ li a {
   border: 2px solid #d89fb0;
 }
 
+.btn:hover, .btn-ghost:hover {
+  color: #860927;
+  background-color: #d89fb0;
+  border: 2px solid #860927;
+}
+
 header h1, header p {
   display: block;
 }
