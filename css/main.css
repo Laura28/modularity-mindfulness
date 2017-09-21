@@ -1,9 +1,4 @@
 html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
   font-family: "Noto Sans", sans-serif;
 }
 
@@ -12,20 +7,18 @@ html {
 }
 
 body {
-  margin: 0;
   background-color: white;
   font-family: "Noto Sans", sans-serif;
-}
-
-.img-flex {
-  display: block;
-  width: 100%;
 }
 
 li a {
   text-decoration: underline;
   list-style-type: none;
   color: #b64c6e;
+}
+
+li a:hover {
+  color: #860927;
 }
 
 .btn, .btn-ghost {
