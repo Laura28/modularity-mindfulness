@@ -40,6 +40,13 @@ header h1, header p {
   font-family: "Noto Sans Japanese", sans-serif;
 }
 
+.embed-fig {
+  display: none;
+}
+
 @media only screen and (min-width: 60em) {
 
+  article [class="gutter"] {
+    margin: 0;
+  }
 }
