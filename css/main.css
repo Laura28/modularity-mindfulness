@@ -17,12 +17,12 @@ li a:hover {
   color: #860927;
 }
 
-.btn, .btn-ghost {
+.btn-ghost {
   color: #b64c6e;
   border: 2px solid #d89fb0;
 }
 
-.btn:hover, .btn-ghost:hover {
+.btn-ghost:hover {
   color: #860927;
   background-color: #d89fb0;
   border: 2px solid #860927;
@@ -30,4 +30,18 @@ li a:hover {
 
 header h1, header p {
   display: block;
+}
+
+@media only screen and (min-width: 60em) {
+
+  .h1s {
+    margin-left: none;
+    padding-right: 18em;
+  }
+
+  nav {
+    margin-right: none;
+    padding-left: 6em;
+    padding-top: 2.5em;
+  }
 }
